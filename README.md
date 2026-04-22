@@ -1,16 +1,104 @@
-# React + Vite
+# 🎬 TV Shows Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, Netflix-inspired web application built using **React (Vite) and TypeScript**. This app allows users to explore, search, and view detailed information about TV shows using real-time APIs.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://tv-explorer-orpin.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔍 Search TV shows with real-time results
+* 📺 Browse popular and trending shows
+* 📄 View detailed show information (rating, genres, summary)
+* ⭐ Rating system (10/10 style UI)
+* ▶️ "Watch Now" button with interactive UI
+* ❤️ Add to Favorites (local storage)
+* 🎨 Modern dark theme (Netflix-style UI)
+* ⚡ Smooth animations and transitions
+* 📱 Fully responsive (mobile + desktop)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* ⚛️ React (Vite)
+* 📘 TypeScript
+* 🌐 React Router
+* 🎨 Tailwind CSS
+* 🎬 Framer Motion (animations)
+* 🔗 Axios / Fetch API
+
+---
+
+## 🌐 APIs Used
+
+* 📺 TVMaze API
+  https://api.tvmaze.com
+
+* 🎬 TMDB API
+  https://www.themoviedb.org
+
+---
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+ ├── app/        # Routing
+ ├── components/ # UI Components
+ ├── pages/      # Pages (Home, Shows, Search, Details)
+ ├── data/       # API functions
+ ├── hooks/      # Custom hooks
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deployment
+
+Deployed using **Vercel**
+
+---
+
+## 💡 Highlights
+
+* Built as a **real-world OTT streaming platform clone**
+* Focused on **UI/UX, performance, and clean architecture**
+* Uses **secure API handling with environment variables**
+
+---
+
+## 👨‍💻 Author
+
+**Jayasankar Tanguturi**
+
+---
+
+## ⭐ Acknowledgements
+
+* TVMaze API
+* TMDB API
+* React & Vite Community
+
+---
+
+🔥 *Designed to deliver a premium streaming experience with modern UI and smooth animations.*
